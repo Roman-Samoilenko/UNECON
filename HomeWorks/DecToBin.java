@@ -2,7 +2,7 @@ package UNECON.HomeWorks;
 
 import java.util.Scanner;
 
-public class DecToBin {
+public class DecToBin{
     public static void main(String[] args){
     Scanner sc = new Scanner(System.in);
     long n = sc.nextLong();
@@ -11,7 +11,7 @@ public class DecToBin {
     }
     String x = "";
     while(n > 0){
-        x = n%2+ x;
+        x = n%2 + x;
         n /= 2;
     }
     System.out.println(x);
